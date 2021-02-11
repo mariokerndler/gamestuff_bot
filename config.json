@@ -1,4 +1,5 @@
 {
 	"prefix": "!",
 	"token": "<TOKEN GOES HERE>"
+	"embedColor" : "#0099ff"
 }
