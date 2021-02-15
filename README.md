@@ -12,4 +12,8 @@ If you wish to get the bot online, you need to change the token in the config.js
 Current commands:
 - !help: Lists all current commands 
 - !ping: A simple ping command
-- !pfp or !icon: Shows the icon of a user
+- !avatar: Shows the icon of a user
+- !delete-messages: Delete all messages from a user at a given channel*
+- !delete-all-messages: Delete all messages from a user in all channels*
+
+\* Limit to 100 Messages

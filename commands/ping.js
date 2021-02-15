@@ -3,6 +3,6 @@ module.exports = {
 	description: 'Ping!',
 	cooldown: 5,
 	execute(message) {
-		message.channel.send('Pong.');
+		message.channel.send(`Your ping is ${Date.now() - message.createdTimestamp} ms`);
 	},
 };
